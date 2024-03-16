@@ -1,20 +1,9 @@
 local git_branch='$(git_prompt_info)%{$reset_color%}$(git_remote_status)'
 
-PROMPT="%F{#A6E3A1}╭─%F{#A6E3A1}%n%F{#313244}@%F{#A6E3A1}%m %{$reset_color%}%F{#FFFFFF}in %~ %{$reset_color%}${git_branch}
-%F{#A6E3A1}╰\$ %{$reset_color%}"
+PROMPT="%F{#313244}╭─%B%F{#A6E3A1}%n%b%F{#313244}@%B%F{#A6E3A1}%m %b%F{#FFFFFF}>
+%F{#313244}╰\$ %F{#FFFFFF}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%B%F{#F9E2AF}on "
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$reset_color%}%F{#F38BA8} ✘ %{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%F{#F38BA8} ✘ %{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%F{#A6E3A1} ✔ %{$reset_color%}"
-
-ZSH_THEME_GIT_PROMPT_REMOTE_STATUS_DETAILED=true
-ZSH_THEME_GIT_PROMPT_REMOTE_STATUS_PREFIX="%F{#F9E2AF}("
-ZSH_THEME_GIT_PROMPT_REMOTE_STATUS_SUFFIX="%F{#F9E2AF})%{$reset_color%}"
-
-ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE=" +"
-ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE_COLOR="%F{#A6E3A1}"
-
-ZSH_THEME_GIT_PROMPT_BEHIND_REMOTE=" -"
-ZSH_THEME_GIT_PROMPT_BEHIND_REMOTE_COLOR="%F{#F38BA8}"
