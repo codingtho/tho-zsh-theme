@@ -9,6 +9,6 @@
 
 ### Screenshots
 
-![Screenshot from 2024-07-29 15-13-11](https://github.com/user-attachments/assets/e30b457e-fa4c-45c7-a499-fed6c0e7fe85)
+![Screenshot from 2024-07-29 15-13-11](https://github.com/user-attachments/assets/725ef33b-9756-428c-874c-99c0f0ef20b7)
 
-![Screenshot from 2024-07-29 15-13-38](https://github.com/user-attachments/assets/125e586d-ea8b-458c-a92f-1f13a1011de6)
+![Screenshot from 2024-07-29 15-13-38](https://github.com/user-attachments/assets/c0f075dc-e5b3-437c-a08a-4cdecd42c521)
